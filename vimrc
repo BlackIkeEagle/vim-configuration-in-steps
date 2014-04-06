@@ -14,3 +14,10 @@ set viewdir=$HOME/.vim/tmp/views " where to store view
 silent execute '!mkdir -p $HOME/.vim/tmp/undo'
 set undodir=$HOME/.vim/tmp/undo " where to store undo 
 
+" syntax
+syntax on " enable syntax highlighting
+" filetype
+filetype on " enable filetype detection
+filetype plugin on " enable filetype plugins
+filetype indent on " enable filetype indentation
+
