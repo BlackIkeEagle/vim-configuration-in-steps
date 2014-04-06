@@ -29,3 +29,7 @@ set noexpandtab " tabs are tabs, do not replace with spaces
 
 " show linenumbers
 set number
+
+" colorscheme
+set background=dark " let the colorscheme be set for a dark background
+colorscheme elflord " example colorscheme, is default available, many more can be added
